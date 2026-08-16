@@ -11,16 +11,16 @@ REPO = Path(__file__).resolve().parent
 
 TARGETS = {
     "arm_linux": {
-        "generated": REPO / "generated_arm64",
-        "repo_id": "adpretko/bringup_arm_linux",
+        "generated": REPO / "generated_arm64_reloc",
+        "repo_id": "adpretko/bringup_arm_linux_reloc",
     },
     "riscv_linux": {
-        "generated": REPO / "generated_riscv64",
-        "repo_id": "adpretko/bringup_riscv_linux",
+        "generated": REPO / "generated_riscv64_reloc",
+        "repo_id": "adpretko/bringup_riscv_linux_reloc",
     },
     "x86_linux": {
-        "generated": REPO / "generated_x86",
-        "repo_id": "adpretko/bringup_x86_linux",
+        "generated": REPO / "generated_x86_reloc",
+        "repo_id": "adpretko/bringup_x86_linux_reloc",
     },
 }
 
